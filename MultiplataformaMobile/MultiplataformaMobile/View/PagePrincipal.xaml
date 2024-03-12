@@ -1,0 +1,24 @@
+﻿<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MultiplataformaMobile.Views.PagePrincipal" IsPresented="True">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout Margin="10">
+                <Image Source="funcionario.png" HorizontalOptions="Center"/>
+                <Label Text="Administração" FontSize="Large" HorizontalOptions="Center" Margin="0,0,0,50"/>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="info2.png"/>
+                    <Button x:Name="btHome" Text="HOME" HorizontalOptions="FillAndExpand" Clicked="btHome_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="imgInserir.png"/>
+                    <Button x:Name="btCadastrar" Text="CADASTRAR" HorizontalOptions="FillAndExpand" Clicked="btCadastrar_Clicked"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="imgLocalizar.png"/>
+                    <Button x:Name="btLocalizar" Text="LOCALIZAR" HorizontalOptions="FillAndExpand" Clicked="btLocalizar_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

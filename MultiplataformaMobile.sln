@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplataformaMobile.Android", "MultiplataformaMobile\MultiplataformaMobile.Android\MultiplataformaMobile.Android.csproj", "{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplataformaMobile", "MultiplataformaMobile\MultiplataformaMobile\MultiplataformaMobile.csproj", "{6DF31503-D22F-4EDD-95DA-0DF76821942A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17ECC2D0-E72A-4997-8BDA-E3A8D0E97D65}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6DF31503-D22F-4EDD-95DA-0DF76821942A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF31503-D22F-4EDD-95DA-0DF76821942A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF31503-D22F-4EDD-95DA-0DF76821942A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DF31503-D22F-4EDD-95DA-0DF76821942A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF31503-D22F-4EDD-95DA-0DF76821942A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF31503-D22F-4EDD-95DA-0DF76821942A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF17CFE4-4497-4300-92E3-570CEBD3912E}
+	EndGlobalSection
+EndGlobal
